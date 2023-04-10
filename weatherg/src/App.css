@@ -1,0 +1,29 @@
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 255, 0.152);
+    /* opacity: 0.7; */
+    border-radius:20px ;
+    height: 80vh;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  body{
+    background-image: url("https://images.hdqwalls.com/wallpapers/sunset-5k-ad.jpg");
+    background-size:cover ;
+  }
+  .line{
+    width: 4px;
+    height: 80vh;
+    background-color: rgb(223, 127, 127);
+    /* background-color: rgba(0, 0, 0, 0.178); */
+  }
+  .FerumC{
+    background-color: rgba(0, 0, 0, 0.558);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+  }

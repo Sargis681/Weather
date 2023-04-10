@@ -1,0 +1,74 @@
+.RightSide{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 40px;
+}
+.RightSideTwo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 100%;
+}
+.info{
+   width: 30%;
+}
+.info h4{
+    margin-top: 1em;
+    display: block;
+    color: white;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.infoP{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color: white;
+    
+}
+
+
+.DayWater{
+    width:80%;
+    display: flex;
+    color: rgb(92, 42, 209);
+    align-items: center;
+    font-family: sans-serif;
+    height: 3vh;
+    justify-content: center;
+    border-radius: 80px;
+    background-color: antiquewhite;
+}
+.SideFor{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 4px;
+}
+.SideFor div{
+    /* height: 20vh; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 6px rgba(255, 127, 80, 0.627);
+
+    align-items: center;
+    width: 19%;
+    border: 1px solid rgb(170, 168, 168);
+
+}
+.SideFor div img{
+    width: 40px;
+}
+
